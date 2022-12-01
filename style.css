@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+  }
+  
+  .bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .semi-bold {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .resume {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+  }
+  
+  .resume .resume_left {
+    width: 280px;
+    background: #0bb5f4;
+  }
+  
+  .resume .resume_left .resume_profile {
+    width: 100%;
+    height: 300px;
+
+  }
+  
+  .resume .resume_left .resume_profile img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .resume .resume_left .resume_content {
+    padding: 0 25px;
+  }
+  
+  .resume .title {
+    margin-bottom: 20px;
+  }
+  
+  .resume .resume_left .bold {
+    color: #fff;
+  }
+  
+  .resume .resume_left .regular {
+    color: #b1eaff;
+  }
+  
+  .resume .resume_item {
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+  }
+  
+  .resume .resume_left .resume_item:last-child,
+  .resume .resume_right .resume_item:last-child {
+    border-bottom: 0px;
+  }
+  
+  .resume .resume_left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .resume .resume_left ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .resume .resume_left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 0px;
+    font-size: 16px;
+    position: relative;
+  }
+  .data{
+    margin-left: 10px;
+  }
+.home {
+    width: 35px;
+    height: 35px;
+}
+.phone {
+    width: 35px;
+    height: 35px;
+}
+.mail {
+    width: 35px;
+    height: 35px;
+}
+
+  .facebook {
+    width: 35px;
+    height: 35px;
+  }
+  .twitter {
+    width: 35px;
+    height: 35px;
+  }
+  .youtube {
+    width: 35px;
+    height: 35px;
+  }
+  .linkedin {
+    width: 35px;
+    height: 35px;
+  }
+  .telegram {
+    width: 35px;
+    height: 35px;
+  }
+  .instagram {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .resume .icon i,
+  .resume .resume_right .resume_hobby ul li i {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .resume .resume_left ul li .data {
+    color: #b1eaff;
+  }
+  
+  .resume .resume_left .resume_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #b1eaff;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_name {
+    width: 25%;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_per {
+    width: 15%;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+  }
+  
+  .resume .resume_left .resume_social .semi-bold {
+    color: #fff;
+    margin-bottom: 3px;
+  }
+  
+  .resume .resume_right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+  }
+  
+  .resume .resume_right .bold {
+    color: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_work ul,
+  .resume .resume_right .resume_education ul {
+    padding-left: 40px;
+    overflow: hidden;
+  }
+  
+  .resume .resume_right ul li {
+    position: relative;
+  }
+  
+  .resume .resume_right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .resume .resume_right ul li .info {
+    margin-bottom: 20px;
+  }
+  
+  .resume .resume_right ul li:last-child .info {
+    margin-bottom: 0;
+  }
+  
+  .resume .resume_right .resume_work ul li:before,
+  .resume .resume_right .resume_education ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_work ul li:after,
+  .resume .resume_right .resume_education ul li:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_hobby ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .resume .resume_right .resume_hobby ul li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #0bb5f4;
+    border-radius: 50%;
+    position: relative;
+    color: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_hobby ul li i {
+    font-size: 30px;
+  }
+  
+  .resume .resume_right .resume_hobby ul li:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -52px;
+    width: 50px;
+    height: 2px;
+    background: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_hobby ul li:last-child:before {
+    display: none;
+  }
+  .music {
+    width: 70px;
+    height: 70px;
+    margin-left: 3px;
+  }
+  .game {
+    width: 70px;
+    height: 70px;
+    margin-left: 3px;
+  }
+  .gomer {
+    width: 70px;
+    height: 70px;
+    margin-top: 3px;
+  }
+  .brain {
+    width: 70px;
+    height: 70px;
+    margin-left: 3px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *:focus,
+  *:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  footer {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 0px;
+    background: rgb(0, 0, 15);
+    border-top: aliceblue 5px solid;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: aliceblue;
+    color: rgb(0, 0, 15);
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: aliceblue;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: aliceblue;
+    top: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: 60px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .linkedin:hover,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip::before {
+    background: #0077b5;
+    color: aliceblue;
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #4267b2;
+    color: aliceblue;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: aliceblue;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    color: aliceblue;
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background: #333;
+    color: aliceblue;
+  }
+
+  .linde_kin {
+    width: 60px;
+    height: 57px;
+  }
+  .github {
+    width: 60px;
+    height: 57px;
+  }
+  .face_book {
+    width: 60px;
+    height: 57px;
+  }
+  .insta {
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .twit {
+    width: 52px;
+    height: 65px;
+  }
+  .tg {
+    width: 60px;
+    height: 57px;
+  }
